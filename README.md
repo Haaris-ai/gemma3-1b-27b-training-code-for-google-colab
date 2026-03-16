@@ -10,7 +10,7 @@ google colab code for training gemma 3
 8. click on file
 9. click upload notebook
 10. put the specific .ipynb file for a specific gemma model downloaded from this repo in there
-11. on the left go to secrets and add a secret called HF_TOKEN and paste your huggingface access key in value
+11. on the left go to secrets and add a secret and call it HF_TOKEN and paste your huggingface access key in value
 12. on the top right click the arrow next to runtime and click change runtime
 13. select T4 GPU
 14. rename your dataset file to dataset.jsonl
