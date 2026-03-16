@@ -6,7 +6,7 @@ This repository provides a streamlined workflow for fine-tuning Google's **Gemma
 
 ## 📋 Prerequisites
 
-* **Dataset:** You must have a training dataset named `dataset.jsonl` in the root folder.
+* **Dataset:** You must have a training dataset named `dataset.jsonl` to upload to notebook.
 * **Hugging Face Account:** Required to access the model weights.
 * **Hardware:** This notebook is optimized for a **T4 GPU** (available on the free tier of Colab).
 
@@ -27,8 +27,10 @@ This repository provides a streamlined workflow for fine-tuning Google's **Gemma
 ### 3. Configure Google Colab
 1. Open [Google Colab](http://colab.research.google.com).
 2. Go to **File** > **Upload notebook** and select the specific for your Gemma 3 model`.ipynb` file from this repo.
-3. On the left sidebar, click the **Key icon (Secrets)**.
-4. Add a new secret:
+3. On the left sidebar, click the **Folder icon (Files)**
+4. Upload your **dataset.jsonl** file in root
+5. On the left sidebar, click the **Key icon (Secrets)**.
+6. Add a new secret:
    * **Name:** `HF_TOKEN`
    * **Value:** Paste your Hugging Face access token.
    * **Permission:** Toggle "Notebook access" to **On**.
@@ -41,7 +43,7 @@ This repository provides a streamlined workflow for fine-tuning Google's **Gemma
 2. **Upload Dataset:** * Ensure your file is named `dataset.jsonl`.
    * Click the **Folder icon** on the left sidebar and upload the file.
 3. **Run All:** Click **Runtime** > **Run all** (or `Ctrl + F9`).
-4. The ollama .gguf file will be in your google drve
+4. The **ollama .gguf** file will be in your google drve
 
 ---
 
