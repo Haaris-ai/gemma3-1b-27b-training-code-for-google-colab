@@ -8,7 +8,7 @@ This repository provides a streamlined workflow for fine-tuning Google's **Gemma
 
 * **Dataset:** You must have a training dataset (recommended to make with ai **specify Gemma**)named **`dataset.jsonl`** to upload to notebook.
 * **Hugging Face Account:** Required to access the model weights.
-* **Hardware:** This notebook is optimized for a **v5e-1 TPU** (available on the free tier of Colab).
+* **Hardware:** This notebook is optimized for a **T4 GPU** (available on the free tier of Colab).
 
 ---
 
@@ -39,7 +39,7 @@ This repository provides a streamlined workflow for fine-tuning Google's **Gemma
 
 ## 🚄 Training Execution
 
-1. **Set Runtime:** Click the arrow next to the **Runtime** button (top right) > **Change runtime type**. Select **v5e-1 TPU** (as google TPUs are very good at training) and click Save.
+1. **Set Runtime:** Click the arrow next to the **Runtime** button (top right) > **Change runtime type**. Select **T4 GPU** and click Save.
 2. **Upload Dataset:** * Ensure your file is named `dataset.jsonl`.
    * Click the **Folder icon** on the left sidebar and upload the file.
 3. **Run All:** Click **Runtime** > **Run all** (or `Ctrl + F9`).
