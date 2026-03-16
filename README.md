@@ -1,4 +1,4 @@
-# gemma3 1b trainig code for google colab
+# gemma3 trainig code for google colab
 MAKE SURE YOU HAVE A DATESET THAT ENDS WITH .jsonl FOR GEMMA TO TRAIN ON (recommend using ai to generate)
 google colab code for training gemma 3
 1.Download the ipynb file for your specific Gemma 3 model
